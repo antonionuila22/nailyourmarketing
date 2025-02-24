@@ -1,0 +1,30 @@
+---
+import Menunav from "./menunav.astro";
+import logo from "../assets/logo.svg";
+import Btn from "./btn.astro";
+---
+
+<header
+  class="w-full bg-[#302CA6] flex flex-wrap items-center pt-7 pb-7 justify-center"
+>
+  <div
+    class="flex flex-nowrap items-center justify-between text-white max-w-6xl w-5xl"
+  >
+    <a href="/"><img src={logo.src} width="150" alt="Astro Homepage" /></a>
+
+    <Menunav />
+
+    <Btn
+      href="tel:+1234567890"
+      text="LETS TALK"
+      textColor="text-[#1E1E96]"
+      bgColor="bg-[#BFEF4D]"
+      iconBgColor="bg-white"
+      shadow="shadow-lg"
+      hoverEffect="hover:scale-105"
+      transitionEffect="transition-transform"
+      durationEffect="duration-300"
+      iconUrl="/callicon.svg"
+    />
+  </div>
+</header>

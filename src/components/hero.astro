@@ -1,0 +1,30 @@
+---
+import ChangedText from "../components/ChangedText.tsx";
+import Btn from "../components/btn.astro";
+---
+
+<section
+  class="flex bg-[#302CA6] flex-col items-center justify-center pt-24 pb-24 gap-6"
+>
+  <ChangedText
+    titleH1="Top of"
+    subtitleH2="Own Your Market. Lead Your Community"
+    text="At Nail Your Marketing, we’re not just here to boost your visibility—we’re here to help you dominate your local market. It’s about standing out, building trust, and creating a brand your community can’t ignore."
+    textchanged={["Search.", "Marketing", "Web", "Design", "SEO", "Branding"]}
+    client:load
+  />
+  <Btn
+    href="tel:+1234567890"
+    text="Start project"
+    textColor="text-[#1E1E96]"
+    bgColor="bg-[#BFEF4D]"
+    iconBgColor="bg-white"
+    shadow="shadow-lg"
+    hoverEffect="hover:scale-105"
+    transitionEffect="transition-transform"
+    durationEffect="duration-300"
+    iconUrl="/righticon.svg"
+    wIcon="10"
+    hIcon="10"
+  />
+</section>
