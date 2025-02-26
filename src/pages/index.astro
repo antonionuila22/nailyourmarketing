@@ -2,12 +2,14 @@
 import Header from "../components/header.astro";
 import Layout from "../layouts/Layout.astro";
 import Hero from "../components/hero.astro";
-import Blogview from "../components/blogview.tsx";
 import "../styles/global.css";
+import BlogView from "../components/BlogView.astro";
 ---
 
 <Layout>
   <Header />
   <Hero />
-  <Blogview />
+  <section class="mx-auto flex flex-col items-center w-full mt-10 mb-10">
+    <BlogView client:load />
+  </section>
 </Layout>
