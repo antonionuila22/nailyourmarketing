@@ -24,20 +24,20 @@ const BlogCarousel = () => {
 
             }}>
             <CarouselContent className="m-0">
-                <CarouselItem className="basis-1/2">
-                    <img src="https://images.unsplash.com/photo-1542744095-291d1f67b221?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Random" />
+                <CarouselItem className="basis-1/3 ">
+                    <img className="max-h-96 h-96 object-cover" src="https://images.unsplash.com/photo-1542744095-291d1f67b221?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Random" />
                 </CarouselItem>
                 <CarouselItem className="basis-1/3">
-                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Random" />
+                    <img className="max-h-96 h-96 object-cover" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Random" />
                 </CarouselItem>
                 <CarouselItem className="basis-1/3">
-                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Random" />
+                    <img className="max-h-96 h-96 object-cover" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Random" />
                 </CarouselItem>
                 <CarouselItem className="basis-1/3">
-                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Random" />
+                    <img className="max-h-96 h-96 object-cover" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Random" />
                 </CarouselItem>
                 <CarouselItem className="basis-1/3">
-                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Random" />
+                    <img className="max-h-96 h-96 object-cover" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Random" />
                 </CarouselItem>
             </CarouselContent>
             <CarouselNext />

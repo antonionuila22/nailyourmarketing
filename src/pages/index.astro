@@ -4,6 +4,7 @@ import Layout from "../layouts/Layout.astro";
 import Hero from "../components/hero.astro";
 import "../styles/global.css";
 import BlogView from "../components/BlogView.astro";
+import Counter from "../components/Counter.astro";
 ---
 
 <Layout>
@@ -11,5 +12,9 @@ import BlogView from "../components/BlogView.astro";
   <Hero />
   <section class="mx-auto flex flex-col items-center w-full mt-10 mb-10">
     <BlogView client:load />
+  </section>
+
+  <section class="mx-auto flex flex-col items-center w-full mt-20 mb-20 h-36">
+    <Counter />
   </section>
 </Layout>
